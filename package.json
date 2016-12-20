@@ -1,0 +1,16 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "Simple Web Proxy on GAE",
+  "main": "app.js",
+  "dependencies": {
+    "http": "0.0.0",
+    "http-proxy": "^1.16.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Nate Lewis",
+  "license": "MIT"
+}
