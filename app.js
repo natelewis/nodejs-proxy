@@ -4,8 +4,8 @@ let https = require('https');
 let httpProxy = require('http-proxy');
 
 // set these ( can be http or https )
-const target = 'https://www.google.com';
-const port = 5050;
+const target = 'http://www.natelewis.net';
+const port = 8080;
 
 // get the type of requrest, and its host
 var urlArray = target.split('://');
